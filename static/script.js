@@ -4,7 +4,7 @@ function setup() {
 
     mic = new p5.AudioIn();
     mic.start();
-    frameRate(2);
+    frameRate(10);
     createCanvas(1000, 1000);
     textSize(200);
 
